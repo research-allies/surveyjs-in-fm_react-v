@@ -27,10 +27,13 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "stylehacks": "^6.0.0",
-    "survey-react-ui": "^1.9.116"
+    "survey-react-ui": "^1.9.139"
   },
-    "@parcel/transformer-css": {
-    "errorRecovery": true
+  "browserslist": "> 0.5%, last 3 versions, not dead",
+  "@parcel/transformer-css": {
+    "cssModules":{"global":true},
+    "errorRecovery": true,
+    "dashedIndents": true
   },
   "widgetType": "React"
 }
